@@ -1,0 +1,20 @@
+{
+    "name": "taksu/laravel-settings",
+    "description": "Contain setting package that Taksu.tech always use",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.2"
+    },
+    "authors": [
+        {
+            "name": "made.adi",
+            "email": "made.adi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Taksu\\Settings\\": "src"
+        }
+    }
+}
