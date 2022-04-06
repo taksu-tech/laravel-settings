@@ -17,7 +17,7 @@ class SettingServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             if (!class_exists('CreateSettingsTable')) {
                 $this->publishes([
-                    __DIR__ . '/database/migrations/2021_12_07_070614_create_settings_table.php' => database_path('migrations/' . date('Y_m_d_His', time()) . '_create_settings_table.php'),
+                    __DIR__ . '/database/migrations/2021_12_07_070614_create_settings_table.php' => database_path('migrations/' . '2021_12_07_070614_create_settings_table.php'),
                 ], 'migrations');
             }
         }

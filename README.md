@@ -6,15 +6,15 @@ This is the Setting package that is used by Taksu.tech projects.
 
 ## Local Installation
 
-The package is not in packagist yet. Therefore, clone the Laravel Setting to your local computer
+The package is not in packagist yet. Therefore, get this from Gitlab.
 
 Add these lines to `composer.json`.
 ```
 ...
 "repositories": [    
     {
-        "type": "path",
-        "url": "../packages/composer/laravel-settings"
+        "type": "vcs",
+        "url": "https://gitlab.com/taksu-public/laravel-setting.git"
     }
 ]
 ```
