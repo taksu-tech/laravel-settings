@@ -7,8 +7,8 @@ class SettingServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->singleton('setting', function ($app) {
-            return new Setting($app);
+        $this->app->singleton(SettingService::class, function ($app) {
+            return new SettingService();
         });
     }
 
