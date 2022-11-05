@@ -1,9 +1,10 @@
 <?php
-namespace Taksu\Settings;
 
-use Illuminate\Support\ServiceProvider;
+namespace Madeadi\Settings;
 
-class SettingServiceProvider extends ServiceProvider
+use Illuminate\Support\ServiceProvider as Base;
+
+class ServiceProvider extends Base
 {
     public function register()
     {
@@ -21,6 +22,5 @@ class SettingServiceProvider extends ServiceProvider
                 ], 'migrations');
             }
         }
-
     }
 }

@@ -1,5 +1,6 @@
 <?php
-namespace Taksu\Settings;
+
+namespace Madeadi\Settings;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -36,7 +37,7 @@ class Setting extends Model
 
     protected static function newFactory()
     {
-        return SettingFactory::new ();
+        return SettingFactory::new();
     }
 
     /**

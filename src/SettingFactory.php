@@ -1,9 +1,9 @@
 <?php
 
-namespace Taksu\Settings;
+namespace Madeadi\Settings;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Taksu\Settings\Setting;
+use Madeadi\Settings\Setting;
 
 class SettingFactory extends Factory
 {
