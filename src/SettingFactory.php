@@ -3,7 +3,6 @@
 namespace Taksu\Settings;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Madeadi\Settings\Setting;
 
 class SettingFactory extends Factory
 {
