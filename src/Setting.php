@@ -1,6 +1,6 @@
 <?php
 
-namespace Madeadi\Settings;
+namespace Taksu\Settings;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

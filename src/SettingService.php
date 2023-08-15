@@ -1,6 +1,6 @@
 <?php
 
-namespace Madeadi\Settings;
+namespace Taksu\Settings;
 
 use Exception;
 use Illuminate\Support\Facades\Cache;
