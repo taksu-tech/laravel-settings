@@ -3,8 +3,8 @@
     "description": "Contain setting package that Taksu.tech always use",
     "type": "library",
     "require": {
-        "php": "^8",
-        "laravel/framework": "^9"
+        "php": "^8.1",
+        "laravel/framework": "^10.0"
     },
     "authors": [
         {
