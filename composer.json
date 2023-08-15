@@ -1,5 +1,5 @@
 {
-    "name": "madeadi/laravel-settings",
+    "name": "taksu/laravel-settings",
     "description": "Contain setting package that Taksu.tech always use",
     "type": "library",
     "require": {

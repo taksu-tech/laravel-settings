@@ -5,19 +5,20 @@ This is the Setting package that is used by Taksu.tech projects.
 # Installation
 
 Run composer require.
+
 ```
-composer require madeadi/laravel-settings
+composer require "taksu/laravel-settings"
 ```
 
 Add the service provider to `config/app.php`
 ```
 "providers" => [
     ...,
-    Madeadi\Settings\ServiceProvider::class,
+    Taksu\Settings\SettingServiceProvider::class,
 ]
 ```
 
 Publish the migration file to create the table. 
 ```
-php artisan vendor:publish --provider "Madeadi\Settings\ServiceProvider" --tag migrations
+php artisan vendor:publish --provider "Taksu\Settings\SettingServiceProvider" --tag migrations
 ```
