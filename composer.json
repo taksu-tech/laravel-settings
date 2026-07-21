@@ -2,6 +2,7 @@
     "name": "taksu/laravel-settings",
     "description": "Contain setting package that Taksu.tech always use",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": "^8.4",
         "laravel/framework": "^13.0"
