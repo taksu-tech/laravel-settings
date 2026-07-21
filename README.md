@@ -14,11 +14,11 @@ Add the service provider to `config/app.php`
 ```
 "providers" => [
     ...,
-    Taksu\Settings\SettingServiceProvider::class,
+    Taksu\Settings\ServiceProvider::class,
 ]
 ```
 
 Publish the migration file to create the table. 
 ```
-php artisan vendor:publish --provider "Taksu\Settings\SettingServiceProvider" --tag migrations
+php artisan vendor:publish --provider "Taksu\Settings\ServiceProvider" --tag migrations
 ```
